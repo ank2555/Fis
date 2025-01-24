@@ -1,4 +1,4 @@
-package com.telusko;
+package com.test;
 
 /**
  * Hello world!
