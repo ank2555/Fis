@@ -16,7 +16,8 @@ public class DriverManager {
         // Props.getProp("browser");
         switch (browser.toLowerCase()) {
             case ("firefox") -> {
-                WebDriverManager.firefoxdriver().cachePath("Drivers").setup();
+//                WebDriverManager.firefoxdriver().cachePath("Drivers").setup();
+                WebDriverManager.chromedriver().setup();
                 driver = new FirefoxDriver();
             }
 
